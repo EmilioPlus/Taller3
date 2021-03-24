@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: black;
+}
+
+body {
+  font-family: "Cormorant Garamond", serif;
+}
+
+#separator-ribbon {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  z-index: 2;
+}
+
+#separator-ribbon .content {
+  width: 150%;
+  height: 150%;
+  margin-left: -25%;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+}
+
+.card-border {
+  border: solid 10px white;
+  border-radius: 20px;
+  overflow: hidden;
+  transition: all ease-out 0.2s;
+}
+.card-border:hover {
+  transform: scale(1.05);
+}
+
+#Motor {
+  background: rgb(255, 255, 255);
+  background: url(../img/tesla10.png),
+    linear-gradient(0deg, rgba(255, 255, 255, 1) 0%, rgba(99, 196, 255, 1) 57%);
+  background-repeat: repeat-x;
+  background-size: 75%;
+  margin-top: -20px;
+}
+
+#footer {
+  background: url(../img/sa.jpg);
+  background-color: rgba(34, 90, 243, 0.582);
+  background-size: 50px 50px;
+}
